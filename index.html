@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roblox PC Checker - Kyrasco</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #0f0f14;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            align-items: center;
+        }
+
+        header {
+            width: 100%;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #181820;
+            border-bottom: 1px solid #282835;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+            color: #dc2626;
+            letter-spacing: 1px;
+        }
+
+        .main-container {
+            max-width: 900px;
+            width: 90%;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 38px;
+            margin-bottom: 15px;
+            color: #f3f4f6;
+        }
+
+        p.subtitle {
+            font-size: 16px;
+            color: #9ca3af;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+
+        .download-box {
+            background-color: #181820;
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid #282835;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+            margin-bottom: 40px;
+        }
+
+        .btn-download {
+            display: inline-block;
+            background-color: #dc2626;
+            color: white;
+            padding: 14px 32px;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+            box-shadow: 0 4px 15px rgba(220, 38, 38, 0.4);
+        }
+
+        .btn-download:hover {
+            background-color: #b91c1c;
+            transform: translateY(-2px);
+        }
+
+        .notice-text {
+            color: #6b7280;
+            margin-top: 15px;
+            font-size: 13px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        .card {
+            background-color: #181820;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #282835;
+        }
+
+        .card h3 {
+            color: #38bdf8;
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .card p {
+            color: #9ca3af;
+            font-size: 14px;
+        }
+
+        footer {
+            margin-top: auto;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            background-color: #181820;
+            border-top: 1px solid #282835;
+            color: #6b7280;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        footer span {
+            color: #dc2626;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">ROBLOX PC CHECKER</div>
+    </header>
+
+    <div class="main-container">
+        <h1>Sistem Güvenlik & PC Kontrol Yazılımı</h1>
+        <p class="subtitle">Roblox ligleri ve toplulukları için geliştirilmiş gelişmiş tespit aracı. Sisteminizdeki geçmiş kalıntıları, Regedit kayıtlarını ve hile izlerini hızlıca analiz edin.</p>
+
+        <div class="download-box">
+            <h2>Son Sürümü İndirin</h2>
+            <p style="color: #6b7280; margin: 10px 0 20px 0; font-size: 14px;">Sürüm v1.0 • Windows 10/11 Uyumlu</p>
+            
+            <!-- ZIP İndirme Bağlantısı -->
+            <a href="RobloxPCChecker.zip" class="btn-download" download>Uygulamayı İndir (.ZIP)</a>
+            
+            <p class="notice-text">💡 İndirdikten sonra `.zip` klasörüne sağ tıklayıp <b>"Tümünü Ayıkla"</b> diyerek uygulamayı çalıştırabilirsiniz.</p>
+        </div>
+
+        <div class="features">
+            <div class="card">
+                <h3>🔍 Regedit & UserAssist</h3>
+                <p>Çalıştırılmış veya silinmiş uygulamaların kayıt defteri izlerini analiz eder.</p>
+            </div>
+            <div class="card">
+                <h3>⚡ Executor Tespiti</h3>
+                <p>Solara, Wave, Delta ve diğer popüler araçların sistemdeki kalıntılarını tarar.</p>
+            </div>
+            <div class="card">
+                <h3>📡 Discord Entegrasyonu</h3>
+                <p>Tarama tamamlandığında Roblox ve Discord kullanıcı adı ile sonuçları kanala aktarır.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Developed By <span>Kyrasco</span>
+    </footer>
+
+</body>
+</html>
